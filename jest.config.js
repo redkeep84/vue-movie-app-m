@@ -23,7 +23,10 @@ module.exports = {
 
   // jsdom 환경에 대한 URL을 설정합니다.
   // https://github.com/facebook/jest/issues/6766
-  testURL: 'http://localhost/',
+  // testURL: 'http://localhost/',
+  "testEnvironmentOptions": {
+    "url": "http://localhost/"
+},
 
   // 정규식과 일치하는 파일의 변환 모듈을 지정합니다.
   transform: {

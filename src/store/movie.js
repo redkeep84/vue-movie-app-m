@@ -99,7 +99,7 @@ export default {
           loading: false
         })
       }
-    }
+    },
   }
 }
 

@@ -1,14 +1,14 @@
 <template>
   <RouterLink 
     to="/" 
-    class="log">
+    class="logo">
     <span>OMDbAPI</span>.com
   </RouterLink>
 </template>
 
 <style lang="scss" scoped>
 
-.log {
+.logo {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: $black;

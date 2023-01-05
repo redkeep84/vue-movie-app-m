@@ -79,7 +79,7 @@ header {
   display: flex;
   align-items: center;
   position: relative;
-  .log {
+  .logo {
     margin-right: 40px;
   }
   .user {
